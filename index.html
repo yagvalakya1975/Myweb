@@ -1,0 +1,326 @@
+<html>
+ <head>
+  <title>my new new webpage</title> 
+  <style type="text/css">
+body {
+ border: 5px double black;
+ margin: 4px;
+}
+.header {
+ height: 84px;
+ width: 100%;
+ background-color: #000000;
+}
+.header #header-title {
+ color: #ffffff;
+ font-size: 54px;
+ float: left;
+ margin: 0.5px;
+}
+.header form #search {
+ font-size: 20px;
+ float: left
+ width: 80px;
+ margin: 35px 0px;
+ align: right;
+ border-left-style: inset;
+ border-top-style: inset;
+ border-bottom-style: outset;
+}
+.header form #searching {
+ height: 28px; 
+ width: 31px; 
+ float: right;
+ posiiton: fixed;
+ margin: -63.8px 94px 0px 0px;
+ align: left;
+ border-right-style: outset;
+ border-top-style: inset;
+ border-bottom-style: outset;
+ background-image: url("capture.png");
+}
+.menu1 {
+ overflow: hidden;
+ background-color: #333;
+ font-family: Cambri;
+ width: 100%;
+ border-bottom: 1px solid black;
+}
+.menu1 a {
+ float: left;
+ font-size: 16px;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ border-right: 1px solid black;
+}
+.dropdown {
+ float: left;
+ overflow: hidden;
+}
+.dropdown .dropbtn {
+ font-size: 16px;  
+ border: none;
+ outline: none;
+ color: white;
+ padding: 14px 16px;
+ background-color: #333;
+ font-family: Cambri;
+ border-right: 1px solid black;
+}
+.menu a:hover, .dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: #000;
+}
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #fff;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+.dropdown-content a {
+ float: none;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+.dropdown-content a:hover {
+ background-color: #444;
+ color: #fff;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.abc {
+ float: right;
+ background-color: #333;
+ height:50px;
+ width: 100%;
+ padding: 0px;
+ margin: 0px;
+}
+.abc p {
+ float: left;
+ color: white;
+ font-size: 24px;
+ font-family: Cambri;
+ position: relative;
+ top: 50%;
+ transform: translateY(-35%);
+ height: 28px;
+}
+.parallax {
+ width: 300px;
+ border: 1px solid black;
+}
+.parallax #di {
+ top: 50%;
+ transform: translateY(-1500%);
+ width: 300px;
+ align: center;
+ float: left;
+ background-color: lightblue;
+}
+.parallax .activity1 {
+ background-image: url("zmage1.jpg");
+ min-height: 350px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.homeimage {
+ height: 533px; 
+ width: 827px;
+ background-image: url("homephoto.jpg");
+ float: right;
+}
+.leftpanel {
+ height:268.31%;
+ width: 200px;
+ border: 1px solid black;
+ float: right;
+ background-color: #f1f1f1;
+}
+.main {
+ width: 825px;
+ border: 1px solid black;
+ background-color: #f1f1f1;
+ float : right;
+ height: 185%;
+}
+.main #tetx2 {
+ font-family: Arial;
+ color: #000;
+ text-align: left;
+ top: 22%;
+ transform: translateY(-10%);
+ padding: 15px;
+}
+.parallax .activity3 {
+ background-image: url("zmaag3.jpg");
+ min-height: 200px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.parallax .activity4 {
+ background-image: url("2018-02C.jpg");
+ min-height: 200px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.parallax .activity5 {
+ background-image: url("IMG_8121.jpg");
+ min-height: 200px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.parallax .activity7 {
+ background-image: url("picture7.jpg");
+ min-height: 200px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.parallax .activity8 {
+ background-image: url("scifi1.jpg");
+ min-height: 200px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.column {
+  float: left;
+  width: 33%;
+  top: 22%;
+  transform: translateY(-22%);
+}
+.content {
+  background-color: white;
+  padding: 10px;
+  margin: 10px
+}
+#hash a {
+ text-decoration: none;
+ color: #000;
+}
+#acitiv {
+ top: 22%;
+ transform: translateY(-22%);
+}
+  </style>
+ </head>
+ <body> 
+  <div class="header">
+   <p id="header-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MYDREAMSCHOOL.COM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+   <form>
+    <input id="search" type="text" name="search" placeholder="search..."><button id="searching"></button>
+   </form>  
+  </div>
+   <div class="menu1">
+    <a href="" id="ab">Home</a>
+    <a href="" id="ab">About us</a>
+    <div class="dropdown">
+     <button class="dropbtn" href="" id="ab">Activities</button>
+     <div class="dropdown-content">
+      <a href="">Cultural</a>
+      <a href="">Sports</a>
+      <a href="">Scholastic</a>
+     </div>
+    </div>  
+    <a href="" id="ab">Circulars</a>
+    <a href="" id="ab">Achievements</a>
+    <div class="dropdown">
+     <button class="dropbtn" href="" id="ab">Examination system</button>
+     <div class="dropdown-content">
+      <a href="">LKG-UKG</a>
+      <a href="">I-V</a>
+      <a href="">VI-VIII</a>
+      <a href="">IX-XII</a>
+     </div>
+    </div>
+    <a href="" id="ab">Contact Us
+   </a></div> 
+   <div class="abc"><marquee><p>Mid-term exam datesheet finalised.Click here to view it.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Prefectorial Council to be sworn tomorrow.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Janmashtami Cultural program selections to take place tomorrow.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></marquee>
+   </div>
+  </div>
+  <div class="leftpanel">
+  </div>
+  <div class="homeimage">
+  </div>
+  <div class="main">
+   <div class="column">
+    <div class="content">
+    <img src="565239b4dde7f1d75406ee907becacacefdb3611_hq.jpg" style="width:100%">
+    <h1 id="hash"><a href="">Staff Members</a></h1>
+   </div>
+  </div>
+  <div class="column">
+   <div class="content">
+    <img src="ada5c8852b4ee7ddbf95e7093dd052b6.jpg" style="width:100%">
+    <h1 id="hash"><a href="">Photo Gallery</a></h1>
+   </div>
+  </div>
+  <div class="column">
+   <div class="content">
+    <img src="c095bb706b6778d55cfdad6433d09ef5.jpg" style="width:100%">
+     <h1 id="hash"><a href="">Facilities</a></h1>
+    </div>
+   </div>
+   <p id="tetx2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     School embarked on its journey on April 5, 2000 with strength of 800 students.The success story of the school in such   
+     a short span of time is a testimony to the hard work of the principal, staff, parents and the students.<br><br><i>Sunshine Mellow  
+     Public school,Jaipur</i> has all world class facilities such as swimming pool, tennis court, basketball court, indoor games 
+     arena, cricket and football ground, landscape park, accessible beach area, two separate canteens, two rich        
+     libraries,well-ventilated classrooms with air conditioners equipped with computers and tablets to study .<br><br> Our teaching  
+     staff consists of well-known and world-famous teachers. School focuses on the all-round development of children by      
+     instilling in them the power of thinking and providing with top class facilities.<br><br> We also have a sprawling lush green   
+     ground for outdoor activities.The school has made earnest effort to evaluate the Child's Scholastic and Co-Scholastic   
+     domains through assessments at regular intervals.French, German,Russian, Italian and Sanskrit are taught as III Language
+     subjects in the middle classes. Apart from Scout and Guides, NCC  has also been added as a part of School Curriculum.The
+     school is affiliated  to CBSE New Delhi as co-educational senior secondary school.<br><br> First batch of class XII passed out  
+     in 2002. The school offers all three streams of study Science, Commerce and Humanities.<br><br> Presently our school has a strength of 
+     4000 students, 120 teachers and 10 sections in each class (Total 120 classes in all).</p>
+  </div>
+  <div class="parallax">
+  <h1 id="di">&nbsp;&nbsp;&nbsp;&nbsp;Recent Activities&nbsp&nbsp;&nbsp;&nbsp;</h1>
+  <div class="activity1"></div>
+   <div style="height: 60px; background-color: #000;color: #fff; font-size: 16px">
+     Scroll Up and Down this page to see the parallax scrolling effect
+   </div>
+  <div class="activity3"></div>
+   <div style="height: 80px; background-color: #000;color: #fff; font-size: 16px;top: 22%;transform: translateY(-22%)">
+    <p id="acitiv">Scroll Up and Down this page to see the parallax scrolling effect</p>
+   </div>
+  <div class="activity4"></div>
+  <div style="height: 80px; background-color: #000;color: #fff; font-size: 16px;">
+    Scroll Up and Down this page to see the parallax scrolling effect
+   </div>
+  <div class="activity5"></div>
+   <div style="height: 60px; background-color: #000;color: #fff; font-size: 16px;">
+    Scroll Up and Down this page to see the parallax scrolling effect
+   </div>
+  <div class="activity7"></div>
+   <div style="height: 60px; background-color: #000;color: #fff; font-size: 16px;">
+    Scroll Up and Down this page to see the parallax scrolling effect
+   </div>
+  <div class="activity8"></div>
+   <div style="height: 60px; background-color: #000;color: #fff; font-size: 16px;">
+    Scroll Up and Down this page to see the parallax scrolling effect
+   </div>
+  </div>
+ </body>
+</html>
